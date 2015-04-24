@@ -194,7 +194,7 @@ class DataSet extends Widget
                 $offset = (max(Paginator::resolveCurrentPage()-1,0)) * $limit;
                 $this->data = array_slice($this->source, $offset, $limit);
                 $this->paginator = new LengthAwarePaginator($this->data, count($this->source), $limit, Paginator::resolveCurrentPage(),
-                    ['path' => Paginator::resolveCurrentPath()]);
+                    ['path' => trim(Paginator::resolveCurrentPath(),'/')]);
 
                 break;
 
