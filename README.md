@@ -17,6 +17,13 @@ Nothing to "generate", just some classes to let you develop and maintain CRUD ba
  
 ![rapyd laravel](https://raw.github.com/zofe/rapyd-laravel/master/public/assets/rapyd-laravel.png)
  
+ 
+## This Fork
+
+I created this fork because in some of my projects I had problems with the link handling in `Widget.php`.
+I also changed the default Date Format to ISO. If you have issues with my modifications please send errors, 
+questions etc. to <me@hboers.com>
+
 ## important notice:
 
 dev-master switched to laravel 5  
